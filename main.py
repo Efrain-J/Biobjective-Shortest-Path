@@ -1,10 +1,10 @@
 from src.Boa import main_boa
 from src.Dijkstra import main_dijkstra
 from src.AStar import main_astar
-from src.D_e import main_dijkstra_epsilon
-from src.A_e import main_astar_epsilon
+from src.Dijkstra_e import main_dijkstra_epsilon
+from src.AStar_e import main_astar_epsilon
 from src.Pulse import main_pulse
-from src.nsga_11 import main_nsga, write_csv
+from src.nsga_II import main_nsga, write_csv
 import time
 
 start_node = None
